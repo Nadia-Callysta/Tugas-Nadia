@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bio Profile</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+  body {
+    background-image: url('bg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    color: #222;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.15);
+    overflow: hidden;
+  }
+
+  header {
+    background: #3459a1;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    position: relative;
+  }
+
+  header h1 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+  }
+
+  .photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 15px;
+    border: 5px solid #82c0ff;
+  }
+
+  .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .biodata {
+    padding: 30px 35px 40px;
+    text-align: center;
+  }
+
+  .biodata h2 {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #3459a1;
+  }
+
+  .info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 15px;
+    max-width: 350px;
+    color: #555;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+  .info-list li {
+    margin: 6px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .info-list li span.label {
+    width: 90px;
+    font-weight: 700;
+    color: #3459a1;
+    text-align: right;
+    margin-right: 10px;
+  }
+
+  .socials {
+    margin-top: 15px;
+  }
+
+  .socials a {
+    display: inline-block;
+    margin: 0 12px;
+    text-decoration: none;
+    color: #3459a1;
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  .socials a:hover {
+    color: #82c0ff;
+  }
+
+  main {
+    padding: 0 35px 35px 35px;
+  }
+
+  section {
+    margin-top: 30px;
+  }
+
+  section h3 {
+    font-size: 1.6rem;
+    color: #3459a1;
+    border-bottom: 3px solid #82c0ff;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+    font-weight: 700;
+  }
+
+  .education-list,
+  .me-list,
+  .skill-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #444;
+    font-weight: 600;
+  }
+  .education-list li,
+  .me-list li,
+  .skill-list li {
+    background: #f0f7ff;
+    margin-bottom: 10px;
+    padding: 12px 18px;
+    border-radius: 13px;
+    box-shadow: 1px 3px 7px rgba(102, 166, 255, 0.3);
+    font-size: 1.05rem;
+    transition: background-color 0.3s ease;
+  }
+  .education-list li:hover,
+  .me-list li:hover,
+  .skill-list li:hover {
+    background: #82c0ff;
+    color: white;
+    box-shadow: 0 3px 10px rgba(38, 106, 221, 0.8);
+  }
+
+  footer {
+    text-align: center;
+    background: #3459a1;
+    color: white;
+    padding: 20px;
+    font-weight: 600;
+  }
+
+  .icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+    font-size: 1.2rem;
+  }
+  .icon-facebook::before {
+    content: "📘";
+  }
+  .icon-instagram::before {
+    content: "📸";
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <div class="photo">
+      <img src="bio1.jpg" alt="Foto Diri" />
+    </div>
+    <h1>Nadia Callysta Barus</h1>
+  </header>
+  <div class="biodata">
+    <ul class="info-list">
+      <li><span class="label">Alamat:</span> Martubung, Medan</li>
+      <li><span class="label">TTL:</span> Medan, 15 Oktober 2005</li>
+      <li><span class="label">No. HP:</span> +62 812 3216 7789</li>
+    </ul>
+    <div class="socials">
+      <a href="https://facebook.com/nadia.callysta" target="_blank" rel="noopener">
+        <span class="icon icon-facebook"></span> Facebook
+      </a>
+      <a href="https://instagram.com/nadiaaacb" target="_blank" rel="noopener">
+        <span class="icon icon-instagram"></span> Instagram
+      </a>
+    </div>
+  </div>
+
+  <main>
+    <section>
+      <h3>Education</h3>
+      <ul class="education-list">
+        <li>MAN 4 Medan (2020 - 2023)</li>
+        <li>Universitas Muhammadiyah Sumatera Utara, Sistem Informasi (2023 - Sekarang)</li>
+      </ul>
+    </section>
+
+     <section>
+      <h3>About Me</h3>
+      <ul class="me-list">
+        <li>Hi! Aku Mahasiswa Sistem Informasi di Universitas Muhammadiyah Sumatera Utara yang sedang mempeljari dan memiliki ketertarikan pada bidang teknologi terutama pada bagian pemrograman dan pengembangan aplikasi. Saat ini Aku sedang berfokus pada pemrograman menggunakan HTML, CSS, dan Java. Aktif mengembangkan kemampuan atau soft skill melalui organisasi dan kerja tim dalam proyek kampus.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Skills</h3>
+      <ul class="skill-list">
+        <li>Java</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+    </section>
+  </main>
+</div>
+
+<footer>
+  &copy; 2025 Nadia Callysta Barus | Bio Profile
+</footer>
+
+</body>
+</html>
